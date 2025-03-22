@@ -49,8 +49,8 @@ Common creatures:
 - Magenta and purple creatures are the same as blue creatures, only they also compete with red creatures for food. Purple is more common in the current version of the simulation than magenta
 
 Less common:
-- Yellow and orange creatures are uncommon mutations of red creatures that grow to a medium size. They rarely exist for long, but almost always appear shortly. They will eat red, blue, and purple creatures but will get eaten by green and cyan creatures
-- White creatures share a similar niche to cyan creatures.
+- Yellow and orange creatures are uncommon mutations of red creatures that grow to a medium size. They rarely exist for long, but almost always appear shortly. They will eat red, blue, and purple creatures but will get eaten by green and cyan creatures.
+- White creatures share a similar niche to cyan creatures. Their existence means that different stats aren't being punished enough. 
 
 Rare:
 - Gray creatures are so rare, I've never seen them. Their whole deal is that they're the red creatures of dead zones.
@@ -62,9 +62,10 @@ Other distinctions are only in their brains.
 This is the latest version (as of March 2025) of my simulation. I had other simulations (i'll call them versions -1 and 0) that won't be on Github.
 Instead of a groundeat stat, i had a health stat that allowed creatures to survive after being eaten.
 In these versions, magenta and white were the dominant creatures.
-These simulations take way to long to run compared to this (This program runs in O(n) time whereas versions -1 and 0 used O(n^2) time (n is the creature count))
+These simulations take way to long to run compared to this (This program runs in O(n) time whereas versions -1 and 0 used O(n^2) time (n is the creature count)).
 
 Possible bugs: 
+
 Movement algorithm might be incorrect: creatures tend to move diagonally apparently, which shouldn't be allowed
 
 This is my first real github project :)
