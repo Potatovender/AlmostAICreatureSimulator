@@ -41,16 +41,20 @@ It records the ground health, as well as the sizes of the creatures (if there ar
 From there, it uses its genes (a list of 5 numbers) to give a score to each direction. The creature will then move in the direction with the highest score. 
 
 Metagame notes: 
-Common: 
+
+Common creatures: 
 - Red creatures are hyper-adapted to swarm the ground and eat everything, then reproducing several times before dying.
 - Green and cyan creatures exist in a similar niche, whose sole intention is to eat each other, as well as other creatures.
 - Blue creatures don't do much, but they also do not die as a cause of overcrowding. Thus, they will always exist in simulations unless one species takes over (normally by eating everyone else)
 - Magenta and purple creatures are the same as blue creatures, only they also compete with red creatures for food. Purple is more common in the current version of the simulation than magenta
+
 Less common:
 - Yellow and orange creatures are uncommon mutations of red creatures that grow to a medium size. They rarely exist for long, but almost always appear shortly. They will eat red, blue, and purple creatures but will get eaten by green and cyan creatures
 - White creatures share a similar niche to cyan creatures.
+
 Rare:
 - Gray creatures are so rare, I've never seen them. Their whole deal is that they're the red creatures of dead zones.
+
 
 Due to the evolutionary minmaxing that will eventually send all creatures down one of these paths, these are the only creatures. 
 Other distinctions are only in their brains. 
