@@ -14,6 +14,7 @@ The colors of a creature represent one of three stats that they have:
 - Red symbolizes how much they eat from the ground
 - Green symbolizes a creature's size, allowing it to eat smaller creatures
 - Blue decreases the chance a creature will die from random causes or from overcrowding
+
 Each of these stats has a con as well:
 - Eating from the ground (personally referred to as "Groundeat") will poison your creature in "poisoned zones"
 - Size increases the rate at which you lose energy
