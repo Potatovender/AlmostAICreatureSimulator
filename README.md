@@ -59,9 +59,9 @@ Rare:
 Due to the evolutionary minmaxing that will eventually send all creatures down one of these paths, these are the only creatures. 
 Other distinctions are only in their brains. 
 
-This is the latest version (as of March 2025) of my simulation. I had other simulations (i'll call them versions -1 and 0) that won't be on Github
-instead of a groundeat stat, i had a health stat that allowed creatures to survive after being eaten
-In these versions, magenta and white were the dominant creatures
+This is the latest version (as of March 2025) of my simulation. I had other simulations (i'll call them versions -1 and 0) that won't be on Github.
+Instead of a groundeat stat, i had a health stat that allowed creatures to survive after being eaten.
+In these versions, magenta and white were the dominant creatures.
 These simulations take way to long to run compared to this (This program runs in O(n) time whereas versions -1 and 0 used O(n^2) time (n is the creature count))
 
 Possible bugs: 
