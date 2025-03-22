@@ -29,8 +29,11 @@ A creature with a negative Groundeat stat will replenish the ground instead of d
 When reproducing, the creatures stats and genes are changed very slightly, depending on how much energy the parent has left. 
 If the parent has lots of energy, less mutations will happen. 
 
+---
 
 Everything past here is no longer relevant to understand the simulation, and is pure mechanics. 
+
+---
 
 Brain: 
 The creature's brain is a very rudimentary system that sees only the squares adjacent to itself. 
@@ -60,3 +63,4 @@ These simulations take way to long to run compared to this (This program runs in
 Possible bugs: 
 Movement algorithm might be incorrect: creatures tend to move diagonally apparently, which shouldn't be allowed
 
+This is my first real github project :)
