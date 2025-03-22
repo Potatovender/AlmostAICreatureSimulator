@@ -64,6 +64,16 @@ Instead of a groundeat stat, i had a health stat that allowed creatures to survi
 In these versions, magenta and white were the dominant creatures.
 These simulations take way to long to run compared to this (This program runs in O(n) time whereas versions -1 and 0 used O(n^2) time (n is the creature count)).
 
+Notes on current simulation parameters: 
+
+- The current simulation sits in an equilibrium, where no one creature gains the upper hand (as far as i've seen)
+- Blue and purple creatures dominate, while red creatures eat from the ground
+- Green, and later cyan, creatures eat these creatures
+- Over time, Cyan adapted into the largest creatures, while green outcompeted red, and became the new ground eaters
+- After several hours, red went extinct, although orange and yellow do still appear as mutations of green and can preform very well for short amounts of time
+- Green creatures can sometimes grow to large sizes, but the largest creatures are always cyan, since they can survive long enough to have even larger children
+- It is possible that red creatures adapted to become magenta
+
 Possible bugs: 
 
 Movement algorithm might be incorrect: creatures tend to move diagonally apparently, which shouldn't be allowed
