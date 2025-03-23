@@ -59,6 +59,8 @@ Rare:
 Due to the evolutionary minmaxing that will eventually send all creatures down one of these paths, these are the only creatures. 
 Other distinctions are only in their brains. 
 
+Some simulation parameters will generate different unique behaviors. For instance, it is possible for a simulation to be swarmed with red or magenta creatures nine times out of 10, but green and cyan creatures in the other. 
+
 This is the latest version (as of March 2025) of my simulation. I had other simulations (i'll call them versions -1 and 0) that won't be on Github.
 Instead of a groundeat stat, i had a health stat that allowed creatures to survive after being eaten.
 In these versions, magenta and white were the dominant creatures.
@@ -70,12 +72,23 @@ Notes on current simulation parameters:
 - Blue and purple creatures dominate, while red creatures eat from the ground
 - Green, and later cyan, creatures eat these creatures
 - Over time, Cyan adapted into the largest creatures, while green outcompeted red, and became the new ground eaters
-- After several hours, red went extinct, although orange and yellow do still appear as mutations of green and can preform very well for short amounts of time
+- After two hours, red went extinct, although orange and yellow do still appear as mutations of green and can preform very well for short amounts of time
 - Green creatures can sometimes grow to large sizes, but the largest creatures are always cyan, since they can survive long enough to have even larger children
 - It is possible that red creatures adapted to become magenta
+- after 4-5 hours, red has rebounded, and green is considerably rarer than before
+- patches of ground will heal, red creatures will eat it up, and then move onto the next patch of ground
+- The red creatures that are now the most common creatures seem to be the magenta creatures I mentioned above
+
+Notes on known behaviors: 
+
+- Red and magenta creatures will sometimes do a sweep of the map, eating all the food as they pass through. I call this the "mold", and often occurs when there is very little food on the ground, and creatures don't gain much from eating other creatures. 
+- If eating other creatures is too good, green, gyan, and white creatures will overtake the perpetual blue and purple creatures.
+- In most simulations, blue and purple creatures will evenly cover the entire map. I call this "heat death".
+- The "death" of a simulation occurs when there is no more biodiversity. In other words, if there are less than three species, the simulation will almost never generate interesting behavior.
+
 
 Possible bugs: 
 
-Movement algorithm might be incorrect: creatures tend to move diagonally apparently, which shouldn't be allowed
+Movement algorithm might be incorrect: creatures might tend to move diagonally apparently, which shouldn't be allowed
 
 This is my first real github project :)
