@@ -89,6 +89,21 @@ Notes on known behaviors:
 
 Possible bugs: 
 
-Movement algorithm might be incorrect: creatures might tend to move diagonally apparently, which shouldn't be allowed
+- Movement algorithm might be incorrect: creatures might tend to move diagonally apparently, which shouldn't be allowed
+
+Possible next features: 
+
+- Simulation pauser
+- Better simulation runner that allows you to create the simulation parameters
+- Method to allow you to add your own creature into the simulation
+- Sampler system: Clicking on a creature copies their DNA
+- Creature IDs (ways to find common ancestors)
+- WorldEdit features (walls creatures can't access, dead zone makers, undepletable ground, etc.)
+
+If i implement those features, I will be able to run competitions between different players
+
+- Better brains (actual neural networks)
+
+I might just save this for version 2
 
 This is my first real github project :)
