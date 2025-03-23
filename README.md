@@ -18,7 +18,7 @@ The colors of a creature represent one of three stats that they have:
 Each of these stats has a con as well:
 - Eating from the ground (personally referred to as "Groundeat") will poison your creature in "poisoned zones"
 - Size increases the rate at which you lose energy
-- The blue stat's main effect is that it increases the reproduction limit
+- The blue stat's main effect is that it increases the reproduction limit, making it take longer before reproducing
 
 The ground is a source of food in this game. It naturally replenishes over time. 
 When a creature eats from the ground, it gets closer to reproduction, and the ground loses some of its energy. 
