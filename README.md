@@ -72,10 +72,10 @@ Notes on current simulation parameters:
 - Blue and purple creatures dominate, while red creatures eat from the ground
 - Green, and later cyan, creatures eat these creatures
 - Over time, Cyan adapted into the largest creatures, while green outcompeted red, and became the new ground eaters
-- After two hours, red went extinct, although orange and yellow do still appear as mutations of green and can preform very well for short amounts of time
+- After 3-4 hours, red went extinct, although orange and yellow do still appear as mutations of green and can preform very well for short amounts of time
 - Green creatures can sometimes grow to large sizes, but the largest creatures are always cyan, since they can survive long enough to have even larger children
 - It is possible that red creatures adapted to become magenta
-- after 4-5 hours, red has rebounded, and green is considerably rarer than before
+- after 7-8 hours, red has rebounded, and green is considerably rarer than before
 - patches of ground will heal, red creatures will eat it up, and then move onto the next patch of ground
 - The red creatures that are now the most common creatures seem to be the magenta creatures I mentioned above
 
