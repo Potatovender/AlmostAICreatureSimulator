@@ -31,7 +31,7 @@ If the parent has lots of energy, less mutations will happen.
 
 ---
 
-Everything past here is no longer relevant to understand the simulation, and is pure mechanics. 
+Everything past here is no longer relevant to understand the simulation. 
 
 ---
 
