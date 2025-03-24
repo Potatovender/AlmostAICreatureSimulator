@@ -102,8 +102,11 @@ Possible next features:
 
 If i implement those features, I will be able to run competitions between different players
 
-- Better brains (actual neural networks)
+Plans for version 2: 
 
-I might just save this for version 2
+- better brains for the creatures (4x2 neurons? larger?)
+- Creatures can grow brains on their own? No fixed neuron structure?
+
+This will allow for team strategies theoretically (creatures can avoid other creatures with similar species IDs)
 
 This is my first real github project :)
